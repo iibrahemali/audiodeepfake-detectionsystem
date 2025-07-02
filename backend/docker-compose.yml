@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  aasist-backend:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - PYTHONUNBUFFERED=1
+      - LOG_LEVEL=INFO
+    volumes:
+      # Mount logs directory for persistent logging
+      - ./logs:/app/logs
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 15s
+      retries: 3
+      start_period: 90s
+    networks:
+      - aasist-network
+
+networks:
+  aasist-network:
+    driver: bridge 
