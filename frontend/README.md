@@ -1,6 +1,6 @@
 # Flutter Frontend - Deepfake Audio Detector
 
-Cross-platform Flutter app for deepfake audio detection using the AASIST backend.
+Web-only Flutter app for deepfake audio detection using the AASIST backend (mobile platforms – will do later).
 
 ## Quick Start
 
@@ -17,7 +17,7 @@ App runs at: http://localhost:3000
 
 ## Features
 
-- ✅ **Web & Mobile**: Works on all platforms
+- ✅ **Web**: Works on Chrome (mobile platforms – will do later)
 - ✅ **File Upload**: WAV, FLAC, MP3, M4A support
 - ✅ **Audio Playback**: Play selected files
 - ✅ **Real-time Results**: Instant AI predictions
@@ -26,8 +26,8 @@ App runs at: http://localhost:3000
 ## Platform Support
 
 - **Web**: File upload + playback (recording disabled)
-- **Mobile**: File upload + recording + playback
-- **Desktop**: File upload + playback
+- **Mobile**: (will do later)
+- **Desktop**: (will do later)
 
 ## Backend Integration
 

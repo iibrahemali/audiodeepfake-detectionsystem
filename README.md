@@ -6,7 +6,7 @@ Complete end-to-end system for detecting deepfake audio using the AASIST neural 
 
 - 🤖 **AASIST Model**: State-of-the-art neural network for audio anti-spoofing
 - ⚡ **FastAPI Backend**: High-performance REST API with real-time processing
-- 📱 **Flutter Frontend**: Cross-platform mobile/web app with modern UI
+- 📱 **Flutter Frontend**: Web app with modern UI (mobile platforms – will do later)
 - 🎙️ **Real-time Analysis**: Live audio recording and file upload support
 - 📊 **Detailed Results**: Confidence scores and risk assessment
 - 🐳 **Docker Ready**: Easy deployment with containerization
@@ -71,7 +71,7 @@ docker-compose up --build
 ## Platform Support
 
 - **Backend**: Linux, macOS, Windows with Python 3.11+
-- **Frontend**: Web (Chrome), Android, iOS, Desktop
+- **Frontend**: Web (Chrome) (Android, iOS, Desktop – will do later)
 - **Model**: CPU/GPU inference with 4GB RAM minimum
 
 ## Project Structure
