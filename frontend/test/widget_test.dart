@@ -9,7 +9,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:provider/provider.dart';
 import 'package:flutter/material.dart';
 
-import 'package:deepfake_audio_detector/main.dart';
+// import 'package:deepfake_audio_detector/main.dart';
 import 'package:deepfake_audio_detector/services/api_service.dart';
 import 'package:deepfake_audio_detector/providers/audio_provider.dart';
 import 'package:deepfake_audio_detector/models/api_response.dart';

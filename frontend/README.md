@@ -17,11 +17,10 @@ App runs at: http://localhost:3000
 
 ## Features
 
-- ✅ **Web**: Works on Chrome (mobile platforms – will do later)
-- ✅ **File Upload**: WAV, FLAC, MP3, M4A support
-- ✅ **Audio Playback**: Play selected files
-- ✅ **Real-time Results**: Instant AI predictions
-- ✅ **Material Design 3**: Modern UI with dark/light themes
+- **File Upload**: WAV, FLAC, MP3, M4A support
+- **Audio Playback**: Play selected files
+- **Real-time Results**: Instant AI predictions
+- **Material Design 3**: Modern UI with dark/light themes
 
 ## Platform Support
 
@@ -48,9 +47,17 @@ flutter build web
 
 ## Testing
 
+Run all tests (widget + integration):
 ```bash
-flutter test                    # Unit tests
-dart test_integration.dart      # Backend integration test
+flutter test
+```
+
+Or run tests individually:
+```bash
+cd test
+dart widget_test.dart        # Widget/UI tests
+dart test_integration.dart   # Integration tests
+```
 ```
 
 ## Requirements
